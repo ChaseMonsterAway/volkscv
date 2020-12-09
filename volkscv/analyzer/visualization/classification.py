@@ -1,7 +1,6 @@
 from functools import lru_cache
 
 import cv2
-import numpy as np
 
 from .base import BaseVis
 from .utils import draw_image, generate_mpl_figure

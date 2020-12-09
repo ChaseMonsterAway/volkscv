@@ -39,7 +39,7 @@ def get_index_list(specified_imgs, default_index_list, extension=('all',)):
     """
 
     if not isinstance(extension, tuple):
-        extension = (extension, )
+        extension = (extension,)
     if specified_imgs is None:
         index_list = deque(default_index_list)
     elif os.path.isdir(specified_imgs):

@@ -57,17 +57,6 @@ def test_mmdet():
                       categories=('face',))
     print(anno)
 
-def test_coco2xml():
-    coco2xml_convert(anno_file='instances_val2014_.json',
-                     output_dir='./result')
-
-
-def test_xml2coco():
-    xml2coco_convert(xml_list='data/overfit.txt',
-                     xml_dir='data/Annotations',
-                     json_file='./output.json')
-
-
 
 if __name__ == '__main__':
     test_coco()
@@ -75,6 +64,4 @@ if __name__ == '__main__':
     # test_txt()
     # test_xml()
     # test_mmdet()
-    # test_coco2xml()
-    # test_xml2coco()
 ```
